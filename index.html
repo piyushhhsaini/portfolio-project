@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+    <p>Hello! My name is Piyush Saini. I am learning web development and this is my first portfolio website.</p>
+  </section>
+
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-box">
+      <h3>Project 1</h3>
+      <p>A simple HTML & CSS Portfolio.</p>
+      <img src="project1.jpg" alt="project1" class="project1-img" width="600px" height="300px">
+    </div>
+
+    <div class="project-box">
+      <h3>Project 2</h3>
+      <p>A python based calorie tracker.</p>
+      <img src="project2.jpg" alt="project2" class="project2-img" width="600px" height="300px">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Write your message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <button id="backToTop">↑ Back to Top</button>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script>
+    const backToTop = document.getElementById('backToTop');
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+</html>
