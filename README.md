@@ -1,5 +1,5 @@
 # My-Portfolio-
-A simple HTML based Portfolio.
+A simple HTML and CSS based Portfolio.
 
 ## Overview-
 This is a simple html and CSS based portfolio website created to showcase my skills, projects, my contacts and socials.
